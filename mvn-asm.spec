@@ -4,7 +4,7 @@
 #
 Name     : mvn-asm
 Version  : 6.1.1
-Release  : 5
+Release  : 6
 URL      : https://repo1.maven.org/maven2/org/ow2/asm/asm/6.1.1/asm-6.1.1.jar
 Source0  : https://repo1.maven.org/maven2/org/ow2/asm/asm/6.1.1/asm-6.1.1.jar
 Source1  : https://repo1.maven.org/maven2/asm/asm/3.1/asm-3.1.jar
@@ -23,6 +23,8 @@ Source13  : https://repo1.maven.org/maven2/org/ow2/asm/asm-tree/5.1/asm-tree-5.1
 Source14  : https://repo1.maven.org/maven2/org/ow2/asm/asm/6.0_BETA/asm-6.0_BETA.jar
 Source15  : https://repo1.maven.org/maven2/org/ow2/asm/asm/6.0_BETA/asm-6.0_BETA.pom
 Source16  : https://repo1.maven.org/maven2/org/ow2/asm/asm/6.1.1/asm-6.1.1.pom
+Source17  : https://repo1.maven.org/maven2/org/ow2/asm/asm/6.2/asm-6.2.jar
+Source18  : https://repo1.maven.org/maven2/org/ow2/asm/asm/6.2/asm-6.2.pom
 Summary  : No detailed summary available
 Group    : Development/Tools
 License  : BSD-3-Clause
@@ -95,6 +97,12 @@ cp %{SOURCE15} %{buildroot}/usr/share/java/.m2/repository/org/ow2/asm/asm/6.0_BE
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/ow2/asm/asm/6.1.1
 cp %{SOURCE16} %{buildroot}/usr/share/java/.m2/repository/org/ow2/asm/asm/6.1.1
 
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/ow2/asm/asm/6.2
+cp %{SOURCE17} %{buildroot}/usr/share/java/.m2/repository/org/ow2/asm/asm/6.2
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/ow2/asm/asm/6.2
+cp %{SOURCE18} %{buildroot}/usr/share/java/.m2/repository/org/ow2/asm/asm/6.2
+
 
 %files
 %defattr(-,root,root,-)
@@ -118,3 +126,5 @@ cp %{SOURCE16} %{buildroot}/usr/share/java/.m2/repository/org/ow2/asm/asm/6.1.1
 /usr/share/java/.m2/repository/org/ow2/asm/asm/6.0_BETA/asm-6.0_BETA.pom
 /usr/share/java/.m2/repository/org/ow2/asm/asm/6.1.1/asm-6.1.1.jar
 /usr/share/java/.m2/repository/org/ow2/asm/asm/6.1.1/asm-6.1.1.pom
+/usr/share/java/.m2/repository/org/ow2/asm/asm/6.2/asm-6.2.jar
+/usr/share/java/.m2/repository/org/ow2/asm/asm/6.2/asm-6.2.pom
