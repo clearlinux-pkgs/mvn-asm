@@ -4,7 +4,7 @@
 #
 Name     : mvn-asm
 Version  : 6.1.1
-Release  : 7
+Release  : 8
 URL      : https://repo1.maven.org/maven2/org/ow2/asm/asm/6.1.1/asm-6.1.1.jar
 Source0  : https://repo1.maven.org/maven2/org/ow2/asm/asm/6.1.1/asm-6.1.1.jar
 Source1  : https://repo1.maven.org/maven2/asm/asm/3.1/asm-3.1.jar
@@ -27,6 +27,8 @@ Source17  : https://repo1.maven.org/maven2/org/ow2/asm/asm/6.0_BETA/asm-6.0_BETA
 Source18  : https://repo1.maven.org/maven2/org/ow2/asm/asm/6.1.1/asm-6.1.1.pom
 Source19  : https://repo1.maven.org/maven2/org/ow2/asm/asm/6.2/asm-6.2.jar
 Source20  : https://repo1.maven.org/maven2/org/ow2/asm/asm/6.2/asm-6.2.pom
+Source21  : https://repo1.maven.org/maven2/org/ow2/asm/asm/7.0/asm-7.0.jar
+Source22  : https://repo1.maven.org/maven2/org/ow2/asm/asm/7.0/asm-7.0.pom
 Summary  : No detailed summary available
 Group    : Development/Tools
 License  : BSD-3-Clause
@@ -111,6 +113,12 @@ cp %{SOURCE19} %{buildroot}/usr/share/java/.m2/repository/org/ow2/asm/asm/6.2
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/ow2/asm/asm/6.2
 cp %{SOURCE20} %{buildroot}/usr/share/java/.m2/repository/org/ow2/asm/asm/6.2
 
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/ow2/asm/asm/7.0
+cp %{SOURCE21} %{buildroot}/usr/share/java/.m2/repository/org/ow2/asm/asm/7.0
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/ow2/asm/asm/7.0
+cp %{SOURCE22} %{buildroot}/usr/share/java/.m2/repository/org/ow2/asm/asm/7.0
+
 
 %files
 %defattr(-,root,root,-)
@@ -138,3 +146,5 @@ cp %{SOURCE20} %{buildroot}/usr/share/java/.m2/repository/org/ow2/asm/asm/6.2
 /usr/share/java/.m2/repository/org/ow2/asm/asm/6.1.1/asm-6.1.1.pom
 /usr/share/java/.m2/repository/org/ow2/asm/asm/6.2/asm-6.2.jar
 /usr/share/java/.m2/repository/org/ow2/asm/asm/6.2/asm-6.2.pom
+/usr/share/java/.m2/repository/org/ow2/asm/asm/7.0/asm-7.0.jar
+/usr/share/java/.m2/repository/org/ow2/asm/asm/7.0/asm-7.0.pom
