@@ -4,7 +4,7 @@
 #
 Name     : mvn-asm
 Version  : 6.1.1
-Release  : 10
+Release  : 11
 URL      : https://repo1.maven.org/maven2/org/ow2/asm/asm/6.1.1/asm-6.1.1.jar
 Source0  : https://repo1.maven.org/maven2/org/ow2/asm/asm/6.1.1/asm-6.1.1.jar
 Source1  : https://repo.maven.apache.org/maven2/asm/asm-parent/3.1/asm-parent-3.1.pom
@@ -36,28 +36,35 @@ Source26  : https://repo.maven.apache.org/maven2/org/ow2/asm/asm/5.0.4/asm-5.0.4
 Source27  : https://repo.maven.apache.org/maven2/org/ow2/asm/asm/5.0.4/asm-5.0.4.pom
 Source28  : https://repo.maven.apache.org/maven2/org/ow2/asm/asm/5.1/asm-5.1.jar
 Source29  : https://repo.maven.apache.org/maven2/org/ow2/asm/asm/5.1/asm-5.1.pom
-Source30  : https://repo1.maven.org/maven2/asm/asm/3.1/asm-3.1.jar
-Source31  : https://repo1.maven.org/maven2/asm/asm/3.1/asm-3.1.pom
-Source32  : https://repo1.maven.org/maven2/org/ow2/asm/asm-all/5.0.3/asm-all-5.0.3.jar
-Source33  : https://repo1.maven.org/maven2/org/ow2/asm/asm-all/5.0.3/asm-all-5.0.3.pom
-Source34  : https://repo1.maven.org/maven2/org/ow2/asm/asm-all/5.1/asm-all-5.1.jar
-Source35  : https://repo1.maven.org/maven2/org/ow2/asm/asm-all/5.1/asm-all-5.1.pom
-Source36  : https://repo1.maven.org/maven2/org/ow2/asm/asm-commons/5.0.4/asm-commons-5.0.4.jar
-Source37  : https://repo1.maven.org/maven2/org/ow2/asm/asm-commons/5.0.4/asm-commons-5.0.4.pom
-Source38  : https://repo1.maven.org/maven2/org/ow2/asm/asm-parent/5.0.3/asm-parent-5.0.3.pom
-Source39  : https://repo1.maven.org/maven2/org/ow2/asm/asm-parent/5.1/asm-parent-5.1.pom
-Source40  : https://repo1.maven.org/maven2/org/ow2/asm/asm-parent/6.0_BETA/asm-parent-6.0_BETA.pom
-Source41  : https://repo1.maven.org/maven2/org/ow2/asm/asm-tree/5.1/asm-tree-5.1.jar
-Source42  : https://repo1.maven.org/maven2/org/ow2/asm/asm-tree/5.1/asm-tree-5.1.pom
-Source43  : https://repo1.maven.org/maven2/org/ow2/asm/asm/4.1/asm-4.1.jar
-Source44  : https://repo1.maven.org/maven2/org/ow2/asm/asm/4.1/asm-4.1.pom
-Source45  : https://repo1.maven.org/maven2/org/ow2/asm/asm/6.0_BETA/asm-6.0_BETA.jar
-Source46  : https://repo1.maven.org/maven2/org/ow2/asm/asm/6.0_BETA/asm-6.0_BETA.pom
-Source47  : https://repo1.maven.org/maven2/org/ow2/asm/asm/6.1.1/asm-6.1.1.pom
-Source48  : https://repo1.maven.org/maven2/org/ow2/asm/asm/6.2/asm-6.2.jar
-Source49  : https://repo1.maven.org/maven2/org/ow2/asm/asm/6.2/asm-6.2.pom
-Source50  : https://repo1.maven.org/maven2/org/ow2/asm/asm/7.0/asm-7.0.jar
-Source51  : https://repo1.maven.org/maven2/org/ow2/asm/asm/7.0/asm-7.0.pom
+Source30  : https://repo1.maven.org/maven2/asm/asm-commons/3.3.1/asm-commons-3.3.1.jar
+Source31  : https://repo1.maven.org/maven2/asm/asm-commons/3.3.1/asm-commons-3.3.1.pom
+Source32  : https://repo1.maven.org/maven2/asm/asm-parent/3.3.1/asm-parent-3.3.1.pom
+Source33  : https://repo1.maven.org/maven2/asm/asm-tree/3.3.1/asm-tree-3.3.1.jar
+Source34  : https://repo1.maven.org/maven2/asm/asm-tree/3.3.1/asm-tree-3.3.1.pom
+Source35  : https://repo1.maven.org/maven2/asm/asm/3.1/asm-3.1.jar
+Source36  : https://repo1.maven.org/maven2/asm/asm/3.1/asm-3.1.pom
+Source37  : https://repo1.maven.org/maven2/asm/asm/3.3.1/asm-3.3.1.jar
+Source38  : https://repo1.maven.org/maven2/asm/asm/3.3.1/asm-3.3.1.pom
+Source39  : https://repo1.maven.org/maven2/org/ow2/asm/asm-all/5.0.3/asm-all-5.0.3.jar
+Source40  : https://repo1.maven.org/maven2/org/ow2/asm/asm-all/5.0.3/asm-all-5.0.3.pom
+Source41  : https://repo1.maven.org/maven2/org/ow2/asm/asm-all/5.1/asm-all-5.1.jar
+Source42  : https://repo1.maven.org/maven2/org/ow2/asm/asm-all/5.1/asm-all-5.1.pom
+Source43  : https://repo1.maven.org/maven2/org/ow2/asm/asm-commons/5.0.4/asm-commons-5.0.4.jar
+Source44  : https://repo1.maven.org/maven2/org/ow2/asm/asm-commons/5.0.4/asm-commons-5.0.4.pom
+Source45  : https://repo1.maven.org/maven2/org/ow2/asm/asm-parent/5.0.3/asm-parent-5.0.3.pom
+Source46  : https://repo1.maven.org/maven2/org/ow2/asm/asm-parent/5.1/asm-parent-5.1.pom
+Source47  : https://repo1.maven.org/maven2/org/ow2/asm/asm-parent/6.0_BETA/asm-parent-6.0_BETA.pom
+Source48  : https://repo1.maven.org/maven2/org/ow2/asm/asm-tree/5.1/asm-tree-5.1.jar
+Source49  : https://repo1.maven.org/maven2/org/ow2/asm/asm-tree/5.1/asm-tree-5.1.pom
+Source50  : https://repo1.maven.org/maven2/org/ow2/asm/asm/4.1/asm-4.1.jar
+Source51  : https://repo1.maven.org/maven2/org/ow2/asm/asm/4.1/asm-4.1.pom
+Source52  : https://repo1.maven.org/maven2/org/ow2/asm/asm/6.0_BETA/asm-6.0_BETA.jar
+Source53  : https://repo1.maven.org/maven2/org/ow2/asm/asm/6.0_BETA/asm-6.0_BETA.pom
+Source54  : https://repo1.maven.org/maven2/org/ow2/asm/asm/6.1.1/asm-6.1.1.pom
+Source55  : https://repo1.maven.org/maven2/org/ow2/asm/asm/6.2/asm-6.2.jar
+Source56  : https://repo1.maven.org/maven2/org/ow2/asm/asm/6.2/asm-6.2.pom
+Source57  : https://repo1.maven.org/maven2/org/ow2/asm/asm/7.0/asm-7.0.jar
+Source58  : https://repo1.maven.org/maven2/org/ow2/asm/asm/7.0/asm-7.0.pom
 Summary  : No detailed summary available
 Group    : Development/Tools
 License  : BSD-3-Clause
@@ -169,71 +176,92 @@ cp %{SOURCE28} %{buildroot}/usr/share/java/.m2/repository/org/ow2/asm/asm/5.1/as
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/ow2/asm/asm/5.1
 cp %{SOURCE29} %{buildroot}/usr/share/java/.m2/repository/org/ow2/asm/asm/5.1/asm-5.1.pom
 
-mkdir -p %{buildroot}/usr/share/java/.m2/repository/asm/asm/3.1
-cp %{SOURCE30} %{buildroot}/usr/share/java/.m2/repository/asm/asm/3.1/asm-3.1.jar
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/asm/asm-commons/3.3.1
+cp %{SOURCE30} %{buildroot}/usr/share/java/.m2/repository/asm/asm-commons/3.3.1/asm-commons-3.3.1.jar
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/asm/asm-commons/3.3.1
+cp %{SOURCE31} %{buildroot}/usr/share/java/.m2/repository/asm/asm-commons/3.3.1/asm-commons-3.3.1.pom
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/asm/asm-parent/3.3.1
+cp %{SOURCE32} %{buildroot}/usr/share/java/.m2/repository/asm/asm-parent/3.3.1/asm-parent-3.3.1.pom
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/asm/asm-tree/3.3.1
+cp %{SOURCE33} %{buildroot}/usr/share/java/.m2/repository/asm/asm-tree/3.3.1/asm-tree-3.3.1.jar
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/asm/asm-tree/3.3.1
+cp %{SOURCE34} %{buildroot}/usr/share/java/.m2/repository/asm/asm-tree/3.3.1/asm-tree-3.3.1.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/asm/asm/3.1
-cp %{SOURCE31} %{buildroot}/usr/share/java/.m2/repository/asm/asm/3.1/asm-3.1.pom
+cp %{SOURCE35} %{buildroot}/usr/share/java/.m2/repository/asm/asm/3.1/asm-3.1.jar
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/asm/asm/3.1
+cp %{SOURCE36} %{buildroot}/usr/share/java/.m2/repository/asm/asm/3.1/asm-3.1.pom
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/asm/asm/3.3.1
+cp %{SOURCE37} %{buildroot}/usr/share/java/.m2/repository/asm/asm/3.3.1/asm-3.3.1.jar
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/asm/asm/3.3.1
+cp %{SOURCE38} %{buildroot}/usr/share/java/.m2/repository/asm/asm/3.3.1/asm-3.3.1.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/ow2/asm/asm-all/5.0.3
-cp %{SOURCE32} %{buildroot}/usr/share/java/.m2/repository/org/ow2/asm/asm-all/5.0.3/asm-all-5.0.3.jar
+cp %{SOURCE39} %{buildroot}/usr/share/java/.m2/repository/org/ow2/asm/asm-all/5.0.3/asm-all-5.0.3.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/ow2/asm/asm-all/5.0.3
-cp %{SOURCE33} %{buildroot}/usr/share/java/.m2/repository/org/ow2/asm/asm-all/5.0.3/asm-all-5.0.3.pom
+cp %{SOURCE40} %{buildroot}/usr/share/java/.m2/repository/org/ow2/asm/asm-all/5.0.3/asm-all-5.0.3.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/ow2/asm/asm-all/5.1
-cp %{SOURCE34} %{buildroot}/usr/share/java/.m2/repository/org/ow2/asm/asm-all/5.1/asm-all-5.1.jar
+cp %{SOURCE41} %{buildroot}/usr/share/java/.m2/repository/org/ow2/asm/asm-all/5.1/asm-all-5.1.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/ow2/asm/asm-all/5.1
-cp %{SOURCE35} %{buildroot}/usr/share/java/.m2/repository/org/ow2/asm/asm-all/5.1/asm-all-5.1.pom
+cp %{SOURCE42} %{buildroot}/usr/share/java/.m2/repository/org/ow2/asm/asm-all/5.1/asm-all-5.1.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/ow2/asm/asm-commons/5.0.4
-cp %{SOURCE36} %{buildroot}/usr/share/java/.m2/repository/org/ow2/asm/asm-commons/5.0.4/asm-commons-5.0.4.jar
+cp %{SOURCE43} %{buildroot}/usr/share/java/.m2/repository/org/ow2/asm/asm-commons/5.0.4/asm-commons-5.0.4.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/ow2/asm/asm-commons/5.0.4
-cp %{SOURCE37} %{buildroot}/usr/share/java/.m2/repository/org/ow2/asm/asm-commons/5.0.4/asm-commons-5.0.4.pom
+cp %{SOURCE44} %{buildroot}/usr/share/java/.m2/repository/org/ow2/asm/asm-commons/5.0.4/asm-commons-5.0.4.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/ow2/asm/asm-parent/5.0.3
-cp %{SOURCE38} %{buildroot}/usr/share/java/.m2/repository/org/ow2/asm/asm-parent/5.0.3/asm-parent-5.0.3.pom
+cp %{SOURCE45} %{buildroot}/usr/share/java/.m2/repository/org/ow2/asm/asm-parent/5.0.3/asm-parent-5.0.3.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/ow2/asm/asm-parent/5.1
-cp %{SOURCE39} %{buildroot}/usr/share/java/.m2/repository/org/ow2/asm/asm-parent/5.1/asm-parent-5.1.pom
+cp %{SOURCE46} %{buildroot}/usr/share/java/.m2/repository/org/ow2/asm/asm-parent/5.1/asm-parent-5.1.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/ow2/asm/asm-parent/6.0_BETA
-cp %{SOURCE40} %{buildroot}/usr/share/java/.m2/repository/org/ow2/asm/asm-parent/6.0_BETA/asm-parent-6.0_BETA.pom
+cp %{SOURCE47} %{buildroot}/usr/share/java/.m2/repository/org/ow2/asm/asm-parent/6.0_BETA/asm-parent-6.0_BETA.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/ow2/asm/asm-tree/5.1
-cp %{SOURCE41} %{buildroot}/usr/share/java/.m2/repository/org/ow2/asm/asm-tree/5.1/asm-tree-5.1.jar
+cp %{SOURCE48} %{buildroot}/usr/share/java/.m2/repository/org/ow2/asm/asm-tree/5.1/asm-tree-5.1.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/ow2/asm/asm-tree/5.1
-cp %{SOURCE42} %{buildroot}/usr/share/java/.m2/repository/org/ow2/asm/asm-tree/5.1/asm-tree-5.1.pom
+cp %{SOURCE49} %{buildroot}/usr/share/java/.m2/repository/org/ow2/asm/asm-tree/5.1/asm-tree-5.1.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/ow2/asm/asm/4.1
-cp %{SOURCE43} %{buildroot}/usr/share/java/.m2/repository/org/ow2/asm/asm/4.1/asm-4.1.jar
+cp %{SOURCE50} %{buildroot}/usr/share/java/.m2/repository/org/ow2/asm/asm/4.1/asm-4.1.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/ow2/asm/asm/4.1
-cp %{SOURCE44} %{buildroot}/usr/share/java/.m2/repository/org/ow2/asm/asm/4.1/asm-4.1.pom
+cp %{SOURCE51} %{buildroot}/usr/share/java/.m2/repository/org/ow2/asm/asm/4.1/asm-4.1.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/ow2/asm/asm/6.0_BETA
-cp %{SOURCE45} %{buildroot}/usr/share/java/.m2/repository/org/ow2/asm/asm/6.0_BETA/asm-6.0_BETA.jar
+cp %{SOURCE52} %{buildroot}/usr/share/java/.m2/repository/org/ow2/asm/asm/6.0_BETA/asm-6.0_BETA.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/ow2/asm/asm/6.0_BETA
-cp %{SOURCE46} %{buildroot}/usr/share/java/.m2/repository/org/ow2/asm/asm/6.0_BETA/asm-6.0_BETA.pom
+cp %{SOURCE53} %{buildroot}/usr/share/java/.m2/repository/org/ow2/asm/asm/6.0_BETA/asm-6.0_BETA.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/ow2/asm/asm/6.1.1
-cp %{SOURCE47} %{buildroot}/usr/share/java/.m2/repository/org/ow2/asm/asm/6.1.1/asm-6.1.1.pom
+cp %{SOURCE54} %{buildroot}/usr/share/java/.m2/repository/org/ow2/asm/asm/6.1.1/asm-6.1.1.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/ow2/asm/asm/6.2
-cp %{SOURCE48} %{buildroot}/usr/share/java/.m2/repository/org/ow2/asm/asm/6.2/asm-6.2.jar
+cp %{SOURCE55} %{buildroot}/usr/share/java/.m2/repository/org/ow2/asm/asm/6.2/asm-6.2.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/ow2/asm/asm/6.2
-cp %{SOURCE49} %{buildroot}/usr/share/java/.m2/repository/org/ow2/asm/asm/6.2/asm-6.2.pom
+cp %{SOURCE56} %{buildroot}/usr/share/java/.m2/repository/org/ow2/asm/asm/6.2/asm-6.2.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/ow2/asm/asm/7.0
-cp %{SOURCE50} %{buildroot}/usr/share/java/.m2/repository/org/ow2/asm/asm/7.0/asm-7.0.jar
+cp %{SOURCE57} %{buildroot}/usr/share/java/.m2/repository/org/ow2/asm/asm/7.0/asm-7.0.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/ow2/asm/asm/7.0
-cp %{SOURCE51} %{buildroot}/usr/share/java/.m2/repository/org/ow2/asm/asm/7.0/asm-7.0.pom
+cp %{SOURCE58} %{buildroot}/usr/share/java/.m2/repository/org/ow2/asm/asm/7.0/asm-7.0.pom
 
 
 %files
@@ -241,9 +269,16 @@ cp %{SOURCE51} %{buildroot}/usr/share/java/.m2/repository/org/ow2/asm/asm/7.0/as
 
 %files data
 %defattr(-,root,root,-)
+/usr/share/java/.m2/repository/asm/asm-commons/3.3.1/asm-commons-3.3.1.jar
+/usr/share/java/.m2/repository/asm/asm-commons/3.3.1/asm-commons-3.3.1.pom
 /usr/share/java/.m2/repository/asm/asm-parent/3.1/asm-parent-3.1.pom
+/usr/share/java/.m2/repository/asm/asm-parent/3.3.1/asm-parent-3.3.1.pom
+/usr/share/java/.m2/repository/asm/asm-tree/3.3.1/asm-tree-3.3.1.jar
+/usr/share/java/.m2/repository/asm/asm-tree/3.3.1/asm-tree-3.3.1.pom
 /usr/share/java/.m2/repository/asm/asm/3.1/asm-3.1.jar
 /usr/share/java/.m2/repository/asm/asm/3.1/asm-3.1.pom
+/usr/share/java/.m2/repository/asm/asm/3.3.1/asm-3.3.1.jar
+/usr/share/java/.m2/repository/asm/asm/3.3.1/asm-3.3.1.pom
 /usr/share/java/.m2/repository/org/ow2/asm/asm-all/5.0.3/asm-all-5.0.3.jar
 /usr/share/java/.m2/repository/org/ow2/asm/asm-all/5.0.3/asm-all-5.0.3.pom
 /usr/share/java/.m2/repository/org/ow2/asm/asm-all/5.1/asm-all-5.1.jar
