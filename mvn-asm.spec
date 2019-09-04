@@ -4,7 +4,7 @@
 #
 Name     : mvn-asm
 Version  : 6.1.1
-Release  : 21
+Release  : 22
 URL      : https://repo1.maven.org/maven2/org/ow2/asm/asm/6.1.1/asm-6.1.1.jar
 Source0  : https://repo1.maven.org/maven2/org/ow2/asm/asm/6.1.1/asm-6.1.1.jar
 Source1  : https://repo.maven.apache.org/maven2/asm/asm-analysis/3.2/asm-analysis-3.2.jar
@@ -109,14 +109,16 @@ Source99  : https://repo1.maven.org/maven2/org/ow2/asm/asm/5.0.2/asm-5.0.2.jar
 Source100  : https://repo1.maven.org/maven2/org/ow2/asm/asm/5.0.2/asm-5.0.2.pom
 Source101  : https://repo1.maven.org/maven2/org/ow2/asm/asm/5.0.3/asm-5.0.3.jar
 Source102  : https://repo1.maven.org/maven2/org/ow2/asm/asm/5.0.3/asm-5.0.3.pom
-Source103  : https://repo1.maven.org/maven2/org/ow2/asm/asm/6.0_BETA/asm-6.0_BETA.jar
-Source104  : https://repo1.maven.org/maven2/org/ow2/asm/asm/6.0_BETA/asm-6.0_BETA.pom
-Source105  : https://repo1.maven.org/maven2/org/ow2/asm/asm/6.1.1/asm-6.1.1.pom
-Source106  : https://repo1.maven.org/maven2/org/ow2/asm/asm/6.2/asm-6.2.jar
-Source107  : https://repo1.maven.org/maven2/org/ow2/asm/asm/6.2/asm-6.2.pom
-Source108  : https://repo1.maven.org/maven2/org/ow2/asm/asm/7.0-beta/asm-7.0-beta.pom
-Source109  : https://repo1.maven.org/maven2/org/ow2/asm/asm/7.0/asm-7.0.jar
-Source110  : https://repo1.maven.org/maven2/org/ow2/asm/asm/7.0/asm-7.0.pom
+Source103  : https://repo1.maven.org/maven2/org/ow2/asm/asm/6.0_ALPHA/asm-6.0_ALPHA.jar
+Source104  : https://repo1.maven.org/maven2/org/ow2/asm/asm/6.0_ALPHA/asm-6.0_ALPHA.pom
+Source105  : https://repo1.maven.org/maven2/org/ow2/asm/asm/6.0_BETA/asm-6.0_BETA.jar
+Source106  : https://repo1.maven.org/maven2/org/ow2/asm/asm/6.0_BETA/asm-6.0_BETA.pom
+Source107  : https://repo1.maven.org/maven2/org/ow2/asm/asm/6.1.1/asm-6.1.1.pom
+Source108  : https://repo1.maven.org/maven2/org/ow2/asm/asm/6.2/asm-6.2.jar
+Source109  : https://repo1.maven.org/maven2/org/ow2/asm/asm/6.2/asm-6.2.pom
+Source110  : https://repo1.maven.org/maven2/org/ow2/asm/asm/7.0-beta/asm-7.0-beta.pom
+Source111  : https://repo1.maven.org/maven2/org/ow2/asm/asm/7.0/asm-7.0.jar
+Source112  : https://repo1.maven.org/maven2/org/ow2/asm/asm/7.0/asm-7.0.pom
 Summary  : No detailed summary available
 Group    : Development/Tools
 License  : BSD-3-Clause
@@ -448,29 +450,35 @@ cp %{SOURCE101} %{buildroot}/usr/share/java/.m2/repository/org/ow2/asm/asm/5.0.3
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/ow2/asm/asm/5.0.3
 cp %{SOURCE102} %{buildroot}/usr/share/java/.m2/repository/org/ow2/asm/asm/5.0.3/asm-5.0.3.pom
 
-mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/ow2/asm/asm/6.0_BETA
-cp %{SOURCE103} %{buildroot}/usr/share/java/.m2/repository/org/ow2/asm/asm/6.0_BETA/asm-6.0_BETA.jar
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/ow2/asm/asm/6.0_ALPHA
+cp %{SOURCE103} %{buildroot}/usr/share/java/.m2/repository/org/ow2/asm/asm/6.0_ALPHA/asm-6.0_ALPHA.jar
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/ow2/asm/asm/6.0_ALPHA
+cp %{SOURCE104} %{buildroot}/usr/share/java/.m2/repository/org/ow2/asm/asm/6.0_ALPHA/asm-6.0_ALPHA.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/ow2/asm/asm/6.0_BETA
-cp %{SOURCE104} %{buildroot}/usr/share/java/.m2/repository/org/ow2/asm/asm/6.0_BETA/asm-6.0_BETA.pom
+cp %{SOURCE105} %{buildroot}/usr/share/java/.m2/repository/org/ow2/asm/asm/6.0_BETA/asm-6.0_BETA.jar
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/ow2/asm/asm/6.0_BETA
+cp %{SOURCE106} %{buildroot}/usr/share/java/.m2/repository/org/ow2/asm/asm/6.0_BETA/asm-6.0_BETA.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/ow2/asm/asm/6.1.1
-cp %{SOURCE105} %{buildroot}/usr/share/java/.m2/repository/org/ow2/asm/asm/6.1.1/asm-6.1.1.pom
+cp %{SOURCE107} %{buildroot}/usr/share/java/.m2/repository/org/ow2/asm/asm/6.1.1/asm-6.1.1.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/ow2/asm/asm/6.2
-cp %{SOURCE106} %{buildroot}/usr/share/java/.m2/repository/org/ow2/asm/asm/6.2/asm-6.2.jar
+cp %{SOURCE108} %{buildroot}/usr/share/java/.m2/repository/org/ow2/asm/asm/6.2/asm-6.2.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/ow2/asm/asm/6.2
-cp %{SOURCE107} %{buildroot}/usr/share/java/.m2/repository/org/ow2/asm/asm/6.2/asm-6.2.pom
+cp %{SOURCE109} %{buildroot}/usr/share/java/.m2/repository/org/ow2/asm/asm/6.2/asm-6.2.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/ow2/asm/asm/7.0-beta
-cp %{SOURCE108} %{buildroot}/usr/share/java/.m2/repository/org/ow2/asm/asm/7.0-beta/asm-7.0-beta.pom
+cp %{SOURCE110} %{buildroot}/usr/share/java/.m2/repository/org/ow2/asm/asm/7.0-beta/asm-7.0-beta.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/ow2/asm/asm/7.0
-cp %{SOURCE109} %{buildroot}/usr/share/java/.m2/repository/org/ow2/asm/asm/7.0/asm-7.0.jar
+cp %{SOURCE111} %{buildroot}/usr/share/java/.m2/repository/org/ow2/asm/asm/7.0/asm-7.0.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/ow2/asm/asm/7.0
-cp %{SOURCE110} %{buildroot}/usr/share/java/.m2/repository/org/ow2/asm/asm/7.0/asm-7.0.pom
+cp %{SOURCE112} %{buildroot}/usr/share/java/.m2/repository/org/ow2/asm/asm/7.0/asm-7.0.pom
 
 
 %files
@@ -577,6 +585,8 @@ cp %{SOURCE110} %{buildroot}/usr/share/java/.m2/repository/org/ow2/asm/asm/7.0/a
 /usr/share/java/.m2/repository/org/ow2/asm/asm/5.0.4/asm-5.0.4.pom
 /usr/share/java/.m2/repository/org/ow2/asm/asm/5.1/asm-5.1.jar
 /usr/share/java/.m2/repository/org/ow2/asm/asm/5.1/asm-5.1.pom
+/usr/share/java/.m2/repository/org/ow2/asm/asm/6.0_ALPHA/asm-6.0_ALPHA.jar
+/usr/share/java/.m2/repository/org/ow2/asm/asm/6.0_ALPHA/asm-6.0_ALPHA.pom
 /usr/share/java/.m2/repository/org/ow2/asm/asm/6.0_BETA/asm-6.0_BETA.jar
 /usr/share/java/.m2/repository/org/ow2/asm/asm/6.0_BETA/asm-6.0_BETA.pom
 /usr/share/java/.m2/repository/org/ow2/asm/asm/6.1.1/asm-6.1.1.jar
